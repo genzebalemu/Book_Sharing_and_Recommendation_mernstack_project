@@ -10,8 +10,7 @@ export const userSchmea = new mongoose.Schema({
     email:{
         type:String,
         unique:true,
-        required:[true,"Email is Required"],
-        
+        required:[true,"Email is Required"]
     },
 
     password:{
